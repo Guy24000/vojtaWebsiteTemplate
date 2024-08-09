@@ -1,18 +1,112 @@
+body {
+    background: rgb(70, 50, 250);
+  }
+
+  @font-face {
+    font-family: ENGINE;
+    src: url(ENGINE.ttf);
+  }
+
 .TitleSquare {
-    display: flex;
-    margin-top: 7px;
-    border: 10px solid rgb(149, 165, 166);
-    border-radius: 20px;
-    background-color: rgb(236, 240, 241);
-    padding: 20px;
-    font-size: 18px;
-    font-family: Arial;
-    height:50px;
-    width: 1830px;
+    display:flex;
+    justify-items:center ;
+    justify-content: center;
+    border: 10px solid #292929;
+    border-radius: 10px;
+    background-color: rgb(212, 212, 212);
+    width:1847px;
+    padding-top: 30px;
+    margin-top: 20px;
   }
-  
+
+
 .TitleSquare > p {
-    font-size: 18px;
-    font-family: Arial;
-    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-family:Arial;
+    text-align:center;
+    padding-bottom: 30px;
+}
+
+.article1 {
+    display:flex;
+    justify-items:center ;
+    justify-content: center;
+    border: 5px solid #292929;
+    border-radius: 10px;
+    background-color: rgb(212, 212, 212);
+    width:1847px;
+    padding-top: 200px;
+    margin-top: 20px;
   }
+
+
+.article1 > p {
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-family:Arial;
+    text-align:center;
+    padding-bottom: 30px;
+}
+
+.TitleSquare2 {
+    display:flex;
+    justify-items:center ;
+    justify-content: center;
+    border: 5px solid #292929;
+    border-radius: 10px;
+    background-color: rgb(212, 212, 212);
+    width:300px;
+    height: 200px;;
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+
+.TitleSquare2 > p {
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    font-family:ENGINE;
+    text-align:center;
+    margin-top: 65px;
+}
+
+.TitleSquare3 {
+    display:flex;
+    justify-items:center ;
+    justify-content: center;
+    border: 5px solid #292929;
+    border-radius: 10px;
+    background-color: rgb(212, 212, 212);
+    width:300px;
+    height: 200px;;
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+
+.TitleSquare3 > p {
+    color: rgb(0, 0, 0);
+    font-size: 75px;
+    font-family:ENGINE;
+    text-align:center;
+    margin-top: 65px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content {
+  max-width: 1865px;
+  margin: auto;
+  padding: 5px;
+}
+
+  /*    border: 10px solid rgb(149, 165, 166);*/
+  /*    background-color: rgb(236, 240, 241);*
